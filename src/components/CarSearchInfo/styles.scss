@@ -1,0 +1,20 @@
+@import "styles/variables.scss";
+
+.car-search-info {
+  display: flex;
+  justify-content: space-between;
+
+  &__content {
+    margin-right: $space-l;
+  }
+
+  &__sort {
+    min-width: 250px;
+  }
+
+  &__title {
+    size: $font-size-l;
+    margin-bottom: $space-m;
+    font-weight: bold;
+  }
+}

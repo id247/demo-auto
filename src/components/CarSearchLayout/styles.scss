@@ -1,0 +1,19 @@
+@import "styles/variables.scss";
+
+.car-search-layout {
+  display: flex;
+  padding: $space-l 0;
+
+  &__sidebar {
+    width: 300px;
+    margin-right: $space-l;
+  }
+
+  &__content {
+    flex-grow: 1;
+  }
+
+  &__info {
+    padding-bottom: $space-l;
+  }
+}

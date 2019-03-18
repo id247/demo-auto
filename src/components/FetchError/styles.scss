@@ -1,0 +1,10 @@
+@import "styles/variables.scss";
+
+.error {
+  text-align: center;
+  padding: $space-l;
+
+  &__text {
+    margin-bottom: $space-l;
+  }
+}

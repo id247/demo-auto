@@ -1,0 +1,75 @@
+@import "styles/variables.scss";
+
+.select {
+  &__button {
+    width: 100%;
+    border-radius: $radius-s;
+    border: 1px solid $color-grey;
+    background: #fff;
+    height: 32px;
+    text-align: left;
+    padding: 0 30px 0 $space-s;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    position: relative;
+    font-size: $font-size-s;
+
+    &:after {
+      content: "";
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 6px 5px 0 5px;
+      border-color: $color-grey transparent transparent transparent;
+      position: absolute;
+      top: 50%;
+      right: $space-m;
+      margin-top: -3px;
+    }
+
+    &--is-opened:after {
+      border-width: 0 5px 6px 5px;
+      border-color: transparent transparent $color-grey transparent;
+    }
+  }
+}
+
+.select-dropdown {
+  position: absolute;
+  background: #fff;
+  border: 1px solid $color-grey;
+  margin: $space-s 0;
+  border-radius: $radius-s;
+  overflow: auto;
+  max-height: 159px;
+
+  &__item {
+    padding: $space-m $space-s;
+    font-size: $font-size-s;
+    border: 0;
+    display: block;
+    width: 100%;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+
+    &:not(:first-child) {
+      border-top: 1px solid $color-grey;
+    }
+
+    &--is-selected#{&}--is-selectable,
+    &:hover {
+      background-color: $color-orange;
+      color: #fff;
+      border-color: $color-orange;
+    }
+
+    &:focus {
+      outline: 1px dotted;
+      outline-offset: -1px;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+@import "styles/variables.scss";
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  height: 60px;
+  justify-content: center;
+  padding: $space-m;
+
+  &__text {
+    text-align: center;
+    font-size: $font-size-s;
+  }
+}

@@ -1,0 +1,29 @@
+@import "styles/variables.scss";
+
+.car-layout {
+  &__image-wrapper {
+    background-color: $color-grey;
+    height: 300px;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  &__image {
+    height: 100%;
+  }
+
+  &__content {
+    display: flex;
+    padding: $space-l;
+  }
+
+  &__sidebar {
+    min-width: 300px;
+    width: 300px;
+    margin-left: $space-l;
+  }
+
+  &__info {
+    flex-grow: 1;
+  }
+}

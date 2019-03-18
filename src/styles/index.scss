@@ -1,0 +1,28 @@
+@import "./reset.scss";
+@import "./fonts.scss";
+@import "./variables.scss";
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: $color-dark;
+  font-family: "Roboto", Consolas, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+}
+
+a {
+  color: $color-orange;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

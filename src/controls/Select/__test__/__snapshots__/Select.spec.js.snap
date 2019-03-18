@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Select component Renders with defaults 1`] = `
+<div
+  class="select"
+  data-testid="select"
+  id="id"
+  name="name"
+>
+  <button
+    class="select__button"
+    data-testid="select-button"
+    type="button"
+  >
+    title
+  </button>
+  <input
+    name="name"
+    type="hidden"
+    value="value"
+  />
+</div>
+`;

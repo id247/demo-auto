@@ -1,0 +1,13 @@
+@import "styles/variables.scss";
+
+.wrapper {
+  margin: 0 auto;
+
+  &--l {
+    max-width: 1000px;
+  }
+
+  &--m {
+    max-width: 800px;
+  }
+}

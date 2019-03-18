@@ -1,0 +1,11 @@
+@import "styles/variables.scss";
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  font-size: $font-size-s;
+
+  &__item {
+    margin: 0 $space-m;
+  }
+}

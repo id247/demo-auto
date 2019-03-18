@@ -1,0 +1,12 @@
+@import "styles/variables.scss";
+
+.car-description {
+  &__title {
+    font-size: $font-size-xl;
+    margin-bottom: $space-l;
+  }
+
+  &__info {
+    margin-bottom: $space-l;
+  }
+}

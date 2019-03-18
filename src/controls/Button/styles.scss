@@ -1,0 +1,25 @@
+@import "styles/variables.scss";
+
+.button {
+  border: 0;
+  border-radius: $radius-s;
+  padding: $space-s $space-s;
+  font-size: $font-size-m;
+  width: 128px;
+  height: 32px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+
+  &:hover {
+    background-color: lighten($color-orange, 10%);
+  }
+
+  &:active {
+    background-color: $color-brown;
+  }
+
+  &--primary {
+    background-color: $color-orange;
+    color: #fff;
+  }
+}

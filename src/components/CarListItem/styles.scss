@@ -1,0 +1,50 @@
+@import "styles/variables.scss";
+
+.car-list-item {
+  display: flex;
+  border: 1px solid $color-grey;
+  padding: $space-m;
+  position: relative;
+
+  &--is-favorite {
+    &:after {
+      content: "";
+      width: $space-l;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      position: absolute;
+      background-color: $color-orange;
+    }
+  }
+
+  &__image-wrapper {
+    background: $color-grey;
+    width: 100px;
+    height: 75px;
+    margin-right: $space-m;
+    text-align: center;
+  }
+
+  &__image {
+    vertical-align: top;
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  &__content {
+    font-size: $font-size-s;
+    flex-grow: 1;
+  }
+
+  &__title {
+    font-size: $font-size-l;
+    font-weight: bold;
+    margin-bottom: $space-m;
+  }
+
+  &__info {
+    margin-bottom: $space-m;
+    text-transform: capitalize;
+  }
+}

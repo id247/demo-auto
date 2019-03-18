@@ -1,0 +1,185 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Car component Initial idle render 1`] = `
+<div>
+  <div
+    class="car-layout"
+  >
+    <div
+      class="car-layout__image-wrapper"
+    />
+    <div
+      class="wrapper wrapper--m"
+    >
+      <div
+        class="car-layout__content"
+      >
+        <div
+          class="car-layout__info"
+        >
+          <div
+            class="car-description"
+          >
+            <h1
+              class="car-description__title"
+            >
+              <span
+                class="idle"
+                style="height: 30px;"
+              >
+                 
+              </span>
+            </h1>
+            <div
+              class="car-description__info"
+            >
+              <span
+                class="idle"
+                style="height: 20px;"
+              >
+                 
+              </span>
+            </div>
+            <span
+              class="idle"
+              style="height: 60px;"
+            >
+               
+            </span>
+          </div>
+        </div>
+        <div
+          class="car-layout__sidebar"
+        >
+          <div
+            class="sidebar-item"
+          >
+            <div
+              class="text"
+            >
+              <span
+                class="idle"
+                style="height: 40px;"
+              >
+                 
+              </span>
+            </div>
+            <div
+              class="sidebar-button"
+            >
+              <span
+                class="idle"
+                style="display: inline-block; width: 128px; height: 30px;"
+              >
+                 
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Car component Render after successful fetching  1`] = `
+<div>
+  <div
+    class="car-layout"
+  >
+    <div
+      class="car-layout__image-wrapper"
+    >
+      <img
+        alt="Mercedes-Benz A-Klasse"
+        class="car-layout__image"
+        src="http://localhost/car.jpg"
+      />
+    </div>
+    <div
+      class="wrapper wrapper--m"
+    >
+      <div
+        class="car-layout__content"
+      >
+        <div
+          class="car-layout__info"
+        >
+          <div
+            class="car-description"
+          >
+            <h1
+              class="car-description__title"
+            >
+              Mercedes-Benz A-Klasse
+            </h1>
+            <div
+              class="car-description__info"
+            >
+              Stock # 10252 - 158099 km - Diesel - red
+            </div>
+            <div
+              class="car-description__text"
+            >
+              <div
+                class="text"
+              >
+                <p>
+                  description
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="car-layout__sidebar"
+        >
+          <div
+            class="sidebar-item"
+          >
+            <div
+              class="text"
+            >
+              <p>
+                If you like this car, click the button and save it in your collection of favourite items.
+              </p>
+            </div>
+            <div
+              class="sidebar-button"
+            >
+              <button
+                class="button button--primary"
+                data-testid="button"
+                type="button"
+              >
+                Save
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Car component Render after unsuccessful fetching 1`] = `
+<div>
+  <div
+    class="error"
+  >
+    <div
+      class="error__text"
+    >
+      Something went wrong
+    </div>
+    <button
+      class="button button--primary"
+      data-testid="button"
+      type="button"
+    >
+      Retry
+    </button>
+  </div>
+</div>
+`;

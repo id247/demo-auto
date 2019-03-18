@@ -1,0 +1,19 @@
+@import "styles/variables.scss";
+
+.form {
+  &__line {
+    &:not(:last-child) {
+      margin-bottom: $space-l;
+    }
+  }
+
+  &__label {
+    display: block;
+    font-size: $font-size-s;
+    margin-bottom: $space-m;
+  }
+
+  &__buttons {
+    text-align: right;
+  }
+}

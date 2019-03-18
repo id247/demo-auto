@@ -1,0 +1,15 @@
+@import "styles/variables.scss";
+
+.not-found {
+  text-align: center;
+
+  &__logo {
+    margin-bottom: $space-l;
+  }
+
+  &__title {
+    font-size: $font-size-xl;
+    margin-bottom: $space-l;
+    font-weight: bold;
+  }
+}

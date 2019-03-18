@@ -1,0 +1,827 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CarSearch component Initial idle render 1`] = `
+<div>
+  <div
+    class="wrapper wrapper--l"
+  >
+    <div
+      class="car-search-layout"
+    >
+      <div
+        class="car-search-layout__sidebar"
+      >
+        <div
+          class="sidebar-item"
+        >
+          <div
+            class="form"
+          >
+            <div
+              class="form__line"
+            >
+              <div
+                class="form__label"
+              >
+                <span
+                  class="idle"
+                >
+                   
+                </span>
+              </div>
+              <div
+                class="form__input"
+              >
+                <span
+                  class="idle"
+                  style="height: 20px;"
+                >
+                   
+                </span>
+              </div>
+            </div>
+            <div
+              class="form__line"
+            >
+              <div
+                class="form__label"
+              >
+                <span
+                  class="idle"
+                >
+                   
+                </span>
+              </div>
+              <div
+                class="form__input"
+              >
+                <span
+                  class="idle"
+                  style="height: 20px;"
+                >
+                   
+                </span>
+              </div>
+            </div>
+            <div
+              class="form__buttons"
+            >
+              <div
+                class="sidebar-button"
+              >
+                <span
+                  class="idle"
+                  style="display: inline-block; width: 128px; height: 30px;"
+                >
+                   
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="car-search-layout__content"
+      >
+        <div
+          class="car-search-layout__info"
+        >
+          <div
+            class="car-search-info"
+          >
+            <div
+              class="car-search-info__content"
+            >
+              <div
+                class="car-search-info__title"
+              >
+                Available cars
+              </div>
+              <div
+                class="car-search-info__results"
+              >
+                <span
+                  class="idle"
+                  style="width: 100px;"
+                >
+                   
+                </span>
+              </div>
+            </div>
+            <div
+              class="car-search-info__sort"
+            >
+              <form
+                class="form"
+              >
+                <div
+                  class="form__line"
+                >
+                  <label
+                    class="form__label"
+                    for="sort"
+                  >
+                    Sort By
+                  </label>
+                  <div
+                    class="form__input"
+                  >
+                    <div
+                      class="select"
+                      data-testid="select"
+                      id="sort"
+                      name="sort"
+                    >
+                      <button
+                        class="select__button"
+                        data-testid="select-button"
+                        type="button"
+                      >
+                        None
+                      </button>
+                      <input
+                        name="sort"
+                        type="hidden"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div
+          class="car-search-layout__list"
+        >
+          <div
+            class="car-list"
+          >
+            <div
+              class="car-list__list"
+            >
+              <div
+                class="car-list__item"
+              >
+                <div
+                  class="car-list-item"
+                >
+                  <div
+                    class="car-list-item__image-wrapper"
+                  >
+                    <span
+                      class="idle"
+                      style="width: 100%;"
+                    >
+                       
+                    </span>
+                  </div>
+                  <div
+                    class="car-list-item__content"
+                  >
+                    <h3
+                      class="car-list-item__title"
+                    >
+                      <span
+                        class="idle"
+                        style="width: 50%;"
+                      >
+                         
+                      </span>
+                    </h3>
+                    <div
+                      class="car-list-item__info"
+                    >
+                      <span
+                        class="idle"
+                        style="width: 70%; margin-bottom: 5px;"
+                      >
+                         
+                      </span>
+                      <span
+                        class="idle"
+                        style="width: 70%;"
+                      >
+                         
+                      </span>
+                    </div>
+                    <span
+                      class="idle"
+                      style="width: 60px;"
+                    >
+                       
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="car-list__item"
+              >
+                <div
+                  class="car-list-item"
+                >
+                  <div
+                    class="car-list-item__image-wrapper"
+                  >
+                    <span
+                      class="idle"
+                      style="width: 100%;"
+                    >
+                       
+                    </span>
+                  </div>
+                  <div
+                    class="car-list-item__content"
+                  >
+                    <h3
+                      class="car-list-item__title"
+                    >
+                      <span
+                        class="idle"
+                        style="width: 50%;"
+                      >
+                         
+                      </span>
+                    </h3>
+                    <div
+                      class="car-list-item__info"
+                    >
+                      <span
+                        class="idle"
+                        style="width: 70%; margin-bottom: 5px;"
+                      >
+                         
+                      </span>
+                      <span
+                        class="idle"
+                        style="width: 70%;"
+                      >
+                         
+                      </span>
+                    </div>
+                    <span
+                      class="idle"
+                      style="width: 60px;"
+                    >
+                       
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="car-list__item"
+              >
+                <div
+                  class="car-list-item"
+                >
+                  <div
+                    class="car-list-item__image-wrapper"
+                  >
+                    <span
+                      class="idle"
+                      style="width: 100%;"
+                    >
+                       
+                    </span>
+                  </div>
+                  <div
+                    class="car-list-item__content"
+                  >
+                    <h3
+                      class="car-list-item__title"
+                    >
+                      <span
+                        class="idle"
+                        style="width: 50%;"
+                      >
+                         
+                      </span>
+                    </h3>
+                    <div
+                      class="car-list-item__info"
+                    >
+                      <span
+                        class="idle"
+                        style="width: 70%; margin-bottom: 5px;"
+                      >
+                         
+                      </span>
+                      <span
+                        class="idle"
+                        style="width: 70%;"
+                      >
+                         
+                      </span>
+                    </div>
+                    <span
+                      class="idle"
+                      style="width: 60px;"
+                    >
+                       
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="car-list__item"
+              >
+                <div
+                  class="car-list-item"
+                >
+                  <div
+                    class="car-list-item__image-wrapper"
+                  >
+                    <span
+                      class="idle"
+                      style="width: 100%;"
+                    >
+                       
+                    </span>
+                  </div>
+                  <div
+                    class="car-list-item__content"
+                  >
+                    <h3
+                      class="car-list-item__title"
+                    >
+                      <span
+                        class="idle"
+                        style="width: 50%;"
+                      >
+                         
+                      </span>
+                    </h3>
+                    <div
+                      class="car-list-item__info"
+                    >
+                      <span
+                        class="idle"
+                        style="width: 70%; margin-bottom: 5px;"
+                      >
+                         
+                      </span>
+                      <span
+                        class="idle"
+                        style="width: 70%;"
+                      >
+                         
+                      </span>
+                    </div>
+                    <span
+                      class="idle"
+                      style="width: 60px;"
+                    >
+                       
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="car-list__item"
+              >
+                <div
+                  class="car-list-item"
+                >
+                  <div
+                    class="car-list-item__image-wrapper"
+                  >
+                    <span
+                      class="idle"
+                      style="width: 100%;"
+                    >
+                       
+                    </span>
+                  </div>
+                  <div
+                    class="car-list-item__content"
+                  >
+                    <h3
+                      class="car-list-item__title"
+                    >
+                      <span
+                        class="idle"
+                        style="width: 50%;"
+                      >
+                         
+                      </span>
+                    </h3>
+                    <div
+                      class="car-list-item__info"
+                    >
+                      <span
+                        class="idle"
+                        style="width: 70%; margin-bottom: 5px;"
+                      >
+                         
+                      </span>
+                      <span
+                        class="idle"
+                        style="width: 70%;"
+                      >
+                         
+                      </span>
+                    </div>
+                    <span
+                      class="idle"
+                      style="width: 60px;"
+                    >
+                       
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CarSearch component Render after successful fetching  1`] = `
+<div>
+  <div
+    class="wrapper wrapper--l"
+  >
+    <div
+      class="car-search-layout"
+    >
+      <div
+        class="car-search-layout__sidebar"
+      >
+        <div
+          class="sidebar-item"
+        >
+          <form
+            class="form"
+          >
+            <div
+              class="form__line"
+            >
+              <label
+                class="form__label"
+                for="color"
+              >
+                Color
+              </label>
+              <div
+                class="form__input"
+              >
+                <div
+                  class="select"
+                  data-testid="select"
+                  id="color"
+                  name="color"
+                >
+                  <button
+                    class="select__button"
+                    data-testid="select-button"
+                    type="button"
+                  >
+                    All car colors
+                  </button>
+                  <input
+                    name="color"
+                    type="hidden"
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="form__line"
+            >
+              <label
+                class="form__label"
+                for="manufacturer"
+              >
+                Manufacturer
+              </label>
+              <div
+                class="form__input"
+              >
+                <div
+                  class="select"
+                  data-testid="select"
+                  id="manufacturer"
+                  name="manufacturer"
+                >
+                  <button
+                    class="select__button"
+                    data-testid="select-button"
+                    type="button"
+                  >
+                    All manufacturers
+                  </button>
+                  <input
+                    name="manufacturer"
+                    type="hidden"
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="form__buttons"
+            >
+              <div
+                class="sidebar-button"
+              >
+                <button
+                  class="button button--primary"
+                  data-testid="button"
+                  type="submit"
+                >
+                  Filter
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div
+        class="car-search-layout__content"
+      >
+        <div
+          class="car-search-layout__info"
+        >
+          <div
+            class="car-search-info"
+          >
+            <div
+              class="car-search-info__content"
+            >
+              <div
+                class="car-search-info__title"
+              >
+                Available cars
+              </div>
+              <div
+                class="car-search-info__results"
+              >
+                Showing 1 of 1 results
+              </div>
+            </div>
+            <div
+              class="car-search-info__sort"
+            >
+              <form
+                class="form"
+              >
+                <div
+                  class="form__line"
+                >
+                  <label
+                    class="form__label"
+                    for="sort"
+                  >
+                    Sort By
+                  </label>
+                  <div
+                    class="form__input"
+                  >
+                    <div
+                      class="select"
+                      data-testid="select"
+                      id="sort"
+                      name="sort"
+                    >
+                      <button
+                        class="select__button"
+                        data-testid="select-button"
+                        type="button"
+                      >
+                        None
+                      </button>
+                      <input
+                        name="sort"
+                        type="hidden"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div
+          class="car-search-layout__list"
+        >
+          <div
+            class="car-list"
+          >
+            <div
+              class="car-list__list"
+            >
+              <div
+                class="car-list__item"
+              >
+                <div
+                  class="car-list-item"
+                >
+                  <div
+                    class="car-list-item__image-wrapper"
+                  >
+                    <img
+                      alt="Mercedes-Benz A-Klasse"
+                      class="car-list-item__image"
+                    />
+                  </div>
+                  <div
+                    class="car-list-item__content"
+                  >
+                    <h3
+                      class="car-list-item__title"
+                    >
+                      Mercedes-Benz A-Klasse
+                    </h3>
+                    <div
+                      class="car-list-item__info"
+                    >
+                      Stock # 10252 - 158099 km - Diesel - red
+                    </div>
+                    <a
+                      class="car-list-item__link"
+                      href="/car/10252"
+                    >
+                      View details
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="car-list__pagination"
+            >
+              <div
+                class="pagination"
+              >
+                <div
+                  class="pagination__item"
+                >
+                  First
+                </div>
+                <div
+                  class="pagination__item"
+                >
+                  Previous
+                </div>
+                <div
+                  class="pagination__item"
+                >
+                  Page 
+                  1
+                   of 
+                  0
+                </div>
+                <div
+                  class="pagination__item"
+                >
+                  <a
+                    class="pagination__link"
+                    href="/?page=0"
+                  >
+                    Next
+                  </a>
+                </div>
+                <div
+                  class="pagination__item"
+                >
+                  <a
+                    class="pagination__link"
+                    href="/?page=0"
+                  >
+                    Last
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CarSearch component Render after unsuccessful fetching 1`] = `
+<div>
+  <div
+    class="wrapper wrapper--l"
+  >
+    <div
+      class="car-search-layout"
+    >
+      <div
+        class="car-search-layout__sidebar"
+      >
+        <div
+          class="error"
+        >
+          <div
+            class="error__text"
+          >
+            Something went wrong
+          </div>
+          <button
+            class="button button--primary"
+            data-testid="button"
+            type="button"
+          >
+            Retry
+          </button>
+        </div>
+      </div>
+      <div
+        class="car-search-layout__content"
+      >
+        <div
+          class="car-search-layout__info"
+        >
+          <div
+            class="car-search-info"
+          >
+            <div
+              class="car-search-info__content"
+            >
+              <div
+                class="car-search-info__title"
+              >
+                Available cars
+              </div>
+              <div
+                class="car-search-info__results"
+              >
+                Showing 0 of 0 results
+              </div>
+            </div>
+            <div
+              class="car-search-info__sort"
+            >
+              <form
+                class="form"
+              >
+                <div
+                  class="form__line"
+                >
+                  <label
+                    class="form__label"
+                    for="sort"
+                  >
+                    Sort By
+                  </label>
+                  <div
+                    class="form__input"
+                  >
+                    <div
+                      class="select"
+                      data-testid="select"
+                      id="sort"
+                      name="sort"
+                    >
+                      <button
+                        class="select__button"
+                        data-testid="select-button"
+                        type="button"
+                      >
+                        None
+                      </button>
+                      <input
+                        name="sort"
+                        type="hidden"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div
+          class="car-search-layout__list"
+        >
+          <div
+            class="error"
+          >
+            <div
+              class="error__text"
+            >
+              Something went wrong
+            </div>
+            <button
+              class="button button--primary"
+              data-testid="button"
+              type="button"
+            >
+              Retry
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
